@@ -1,0 +1,40 @@
+# mossforge — alacritty colors
+# put this in ~/.config/alacritty/themes/mossforge.toml and
+# `import = ["~/.config/alacritty/themes/mossforge.toml"]` in alacritty.toml
+
+[colors.primary]
+background = "#000000"
+foreground = "#e6e6e2"
+dim_foreground = "#b8b8b0"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#8f8f89"
+
+[colors.selection]
+text = "CellForeground"
+background = "#1c1c18"
+
+[colors.normal]
+black   = "#000000"
+red     = "#c9564a"
+green   = "#8bb383"
+yellow  = "#c9974a"
+blue    = "#8fc4cf"
+magenta = "#cc63c0"
+cyan    = "#7fb8b8"
+white   = "#b8b8b0"
+
+[colors.bright]
+black   = "#4a4a44"
+red     = "#d97a6e"
+green   = "#a8cf9f"
+yellow  = "#e0b876"
+blue    = "#a3d3dc"
+magenta = "#dd8fd4"
+cyan    = "#9fd0d0"
+white   = "#e6e6e2"
+
+[colors.footer_bar]
+background = "#0a0a0a"
+foreground = "#e6e6e2"
