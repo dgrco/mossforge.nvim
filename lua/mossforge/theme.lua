@@ -205,7 +205,7 @@ function M.groups(c, cfg)
   g["@lsp.typemod.method.declaration"]      = { fg = c.method }
   g["@lsp.typemod.method.definition"]       = { fg = c.method }
   g["@lsp.type.modifier"]                   = { fg = c.keyword }
-  g["@lsp.type.namespace"]     = { fg = c["type"] }
+  g["@lsp.type.namespace"]     = { fg = c.fg }
   g["@lsp.type.number"]        = { fg = c.number }
   g["@lsp.type.operator"]      = { fg = c.operator }
   g["@lsp.type.parameter"]     = { fg = c.fg }
