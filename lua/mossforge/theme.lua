@@ -121,7 +121,7 @@ function M.groups(c, cfg)
 
   g["@constant"]               = { fg = c.constant }
   g["@constant.builtin"]       = { fg = c.constant }
-  g["@constant.macro"]         = { fg = c.keyword }
+  g["@constant.macro"]         = { fg = c.fg }
 
   g["@module"]                 = { fg = c.fg }
   g["@label"]                  = { fg = c.keyword }
@@ -140,7 +140,7 @@ function M.groups(c, cfg)
   g["@function"]               = { fg = c.func }
   g["@function.builtin"]       = { fg = c.builtin, italic = cfg.italic }
   g["@function.call"]          = { fg = c.func_call }
-  g["@function.macro"]         = { fg = c.keyword }
+  g["@function.macro"]         = { fg = c.fg }
   g["@function.method"]        = { fg = c.method }
   g["@function.method.call"]   = { fg = c.func_call }
   g["@constructor"]            = { fg = c.func_call }
@@ -198,7 +198,7 @@ function M.groups(c, cfg)
   g["@lsp.type.function"]      = { fg = c.func_call }
   g["@lsp.type.interface"]     = { fg = c["type"] }
   g["@lsp.type.keyword"]       = { fg = c.keyword }
-  g["@lsp.type.macro"]         = { fg = c.keyword }
+  g["@lsp.type.macro"]         = { fg = c.fg }
   g["@lsp.type.method"]                     = { fg = c.func_call }
   g["@lsp.typemod.function.declaration"]    = { fg = c.func }
   g["@lsp.typemod.function.definition"]     = { fg = c.func }
