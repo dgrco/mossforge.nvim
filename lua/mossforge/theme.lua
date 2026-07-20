@@ -48,7 +48,7 @@ function M.groups(c, cfg)
   g.Folded       = { fg = c.fg_muted, bg = c.bg_alt, italic = cfg.italic }
   g.FoldColumn   = { fg = c.fg_gutter, bg = c.bg }
 
-  g.MatchParen   = { fg = c.keyword, underline = true }
+  g.MatchParen   = { fg = c.keyword }
   g.NonText      = { fg = c.fg_gutter }
   g.Whitespace   = { fg = c.fg_gutter }
   g.SpecialKey   = { fg = c.fg_gutter }

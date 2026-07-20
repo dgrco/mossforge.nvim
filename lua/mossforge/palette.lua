@@ -9,9 +9,9 @@ M.palette = {
   -- base surfaces
   bg        = "#000000",
   bg_dim    = "#000000",
-  bg_alt    = "#0a0a0a",
-  bg_highlight = "#131311",
-  bg_select = "#1c1c18",
+  bg_alt    = "#1a1a1a",
+  bg_highlight = "#242420",
+  bg_select = "#2e2e28",
 
   fg        = "#e6e6e2",
   fg_dim    = "#b8b8b0",
