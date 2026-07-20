@@ -93,7 +93,7 @@ function M.groups(c, cfg)
   g.PreProc      = { fg = c.keyword }
   g.Include      = { fg = c.keyword_import }
   g.Define       = { fg = c.keyword }
-  g.Macro        = { fg = c.keyword }
+  g.Macro        = { fg = c.fg }
   g.PreCondit    = { fg = c.keyword }
 
   g.Type         = { fg = c["type"] }
